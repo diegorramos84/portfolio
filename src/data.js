@@ -19,7 +19,7 @@ export const projects = [
     title: "Rent-a-Cat",
     subtitle: "Placeholder",
     description: "lorem",
-    image: "./context.gif",
+    image: "./cats.png",
     link: "https://rent-a-cat-batch901.herokuapp.com/"
   },
 ]
