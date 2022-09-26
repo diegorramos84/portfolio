@@ -4,16 +4,16 @@ import Contact from "./components/Contact"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
-import Testimonials from "./components/Testimonials"
+import Social from "./components/Social"
 
 function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
+      <Social />
       <About />
       <Projects />
       <Skills />
-      <Testimonials />
       <Contact />
     </main>
   );

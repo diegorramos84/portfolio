@@ -27,16 +27,16 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="relative">
+    <section id="contact" className="flex justify-center relative pb-8">
       <form
         netlify
         name="contact"
         onSubmit={ handleSubmit }
-        className="flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+        className="flex flex-col w-2/3">
         <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
           Hire Me
         </h2>
-        <p className="leading-relaxed mb-5">
+        <p className="leading-relaxed mb-20">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
           suscipit officia aspernatur veritatis. Asperiores, aliquid?
         </p>
@@ -79,7 +79,7 @@ const Contact = () => {
         </div>
         <button
           type="submit"
-          className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          className="text-white bg-red-666 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 hover:border hover:border-red-666 hover:shadow-[3px_4px_0_0_rgba(255,0,102)] hover:shadow-red-666 rounded text-lg">
           Submit
         </button>
       </form>

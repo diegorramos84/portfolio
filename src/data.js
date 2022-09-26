@@ -15,7 +15,7 @@ export const projects = [
     title: "Con[text]",
     subtitle: "Placeholder",
     description: "lorem",
-    image: "./context.gif",
+    image: "./context.png",
     link: "https://team50.herokuapp.com/"
 
   },
