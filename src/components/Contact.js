@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react"
+import { IoIosMail } from 'react-icons/io'
 
 const Contact = () => {
 
@@ -36,9 +37,10 @@ const Contact = () => {
         <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
           Hire Me
         </h2>
-        <p className="leading-relaxed mb-20">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-          suscipit officia aspernatur veritatis. Asperiores, aliquid?
+        <p className="leading-relaxed mt-5 mb-10">
+          Diego Ramos,
+          London, UK. <br></br>
+          <a href="mailto:diegorramos84@gmail.com"><IoIosMail className="inline-block mr-1"/>diegorramos84@gmail.com</a>
         </p>
         <div className="relative mb-4">
           <label htmlFor="name" className="leading-7 text-sm text-gray-400">

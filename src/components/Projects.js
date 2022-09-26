@@ -1,6 +1,7 @@
 import React from "react";
 import { CodeBracketIcon } from "@heroicons/react/24/solid";
 import { projects } from "../data";
+import { BsGithub } from "react-icons/bs";
 
 
 const Projects = () => {
@@ -13,9 +14,7 @@ const Projects = () => {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+
           </p>
         </div>
         <div className="flex flex-col sm:flex-row flex-wrap -m-4 ">
@@ -23,7 +22,7 @@ const Projects = () => {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 h-80 p-4">
               <div className="flex relative h-full">
                 <img
                   alt="gallery"
@@ -31,13 +30,14 @@ const Projects = () => {
                   src={project.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                  <h2 className="tracking-widest text-lg title-font font-medium text-red-666 mb-1">
                     {project.subtitle}
                   </h2>
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
+                  <a type="button" rel="noreferrer" href={project.github} target="_blank" className="text-xl text-white pt-1 bg-gray-900"><BsGithub /></a>
                 </div>
               </div>
             </a>
