@@ -1,5 +1,5 @@
 import IconLanguageRuby from "./components/icons/IconLanguageRuby.tsx"
-import { FaJsSquare, FaLinux, FaNodeJs, FaReact } from "react-icons/fa"
+import { FaJsSquare, FaNodeJs, FaReact } from "react-icons/fa"
 import { SiRubyonrails } from "react-icons/si"
 import { FcLinux } from 'react-icons/fc'
 
