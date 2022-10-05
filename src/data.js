@@ -19,7 +19,7 @@ export const projects = [
     description: "Ruby on Rails powered with HotWire Turbo and Stimulus",
     image: "./context.png",
     link: "https://team50.herokuapp.com/",
-    github: "coming soon"
+    github: "https://github.com/adrianHards/hotwire-context"
 
   },
   {

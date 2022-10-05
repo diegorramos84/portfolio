@@ -7,10 +7,10 @@ const About = () => {
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
           Hi,
-          <br  />
+          <br />
           I'm Diego,
-          <br  />
-           web developer
+          <br />
+          web developer
         </h1>
         <p className="mb-8 leading-relaxed">
         Tech &amp; renewable energy enthusiast. Problem-solving addicted. Changing careers to make the world a better place through technology
