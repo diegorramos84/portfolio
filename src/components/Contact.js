@@ -27,10 +27,22 @@ const Contact = () => {
     .catch((error) => alert(error))
   }
 
+  const handleNameChange = (event) => {
+    setName(event.target.value)
+  }
+
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value)
+  }
+
+  const handleMessageChange = (event) => {
+    setMessage(event.target.value)
+  }
+
   return (
     <section id="contact" className="flex justify-center relative pb-8">
       <form
-        netlify
+        netlify="true"
         name="contact"
         onSubmit={ handleSubmit }
         className="flex flex-col w-2/3">
@@ -49,9 +61,10 @@ const Contact = () => {
           <input
             type="text"
             id="name"
-            name="name"
+            name= "name"
+            value={ name }
             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            onChange={ (e) => setName(e.target.value) }
+            onChange={ handleNameChange }
           />
         </div>
         <div className="relative mb-4">
@@ -61,9 +74,10 @@ const Contact = () => {
           <input
             type="email"
             id="email"
-            name="email"
+            name= "email"
+            value= { email }
             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            onChange={ (e) => setEmail(e.target.value) }
+            onChange={ handleEmailChange }
           />
         </div>
         <div className="relative mb-4">
@@ -75,14 +89,15 @@ const Contact = () => {
           <textarea
             id="message"
             name="message"
+            value= { message }
             className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-            onChange={ (e) => setMessage(e.target.value) }
+            onChange={ handleMessageChange }
           />
         </div>
         <button
           type="submit"
           className="text-white bg-red-666 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 hover:border hover:border-red-666 hover:shadow-[3px_4px_0_0_rgba(255,0,102)] hover:shadow-red-666 rounded text-lg">
-          Submit
+          Contact me!
         </button>
       </form>
   </section>
