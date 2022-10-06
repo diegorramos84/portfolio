@@ -17,14 +17,14 @@ const Contact = () => {
   }
 
   const handleSubmit= (e) => {
-    e.preventDefault()
-    fetch("/", {
+    fetch('/', {
       method: "POST",
       heades: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message })
     })
-    .then(() => alert("Message sent!"))
-    .catch((error) => alert(error))
+      .then(() => alert("Message sent!"))
+      .catch((error) => alert(error))
+    e.preventDefault()
   }
 
   const handleNameChange = (event) => {
