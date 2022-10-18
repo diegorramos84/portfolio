@@ -52,7 +52,7 @@ const Contact = () => {
         <p className="leading-relaxed mt-5 mb-10">
           Diego Ramos,
           London, UK. <br></br>
-          <a href="mailto:diegorramos84@gmail.com"><IoIosMail className="inline-block mr-1"/>diegorramos84@gmail.com</a>
+          <a href="mailto:diegorramos84@gmail.com" className="hover:text-red-666 font-bold"><IoIosMail className="inline-block mr-1"/>diegorramos84@gmail.com</a>
         </p>
         <div className="relative mb-4">
           <label htmlFor="name" className="leading-7 text-sm text-gray-400">
