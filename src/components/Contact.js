@@ -47,7 +47,7 @@ const Contact = () => {
         onSubmit={ handleSubmit }
         className="flex flex-col w-2/3">
         <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-          Hire Me
+          Contact Me
         </h2>
         <p className="leading-relaxed mt-5 mb-10">
           Diego Ramos,
@@ -97,7 +97,7 @@ const Contact = () => {
         <button
           type="submit"
           className="text-white bg-red-666 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 hover:border hover:border-red-666 hover:shadow-[3px_4px_0_0_rgba(255,0,102)] hover:shadow-red-666 rounded text-lg">
-          Contact me!
+          Send
         </button>
       </form>
   </section>

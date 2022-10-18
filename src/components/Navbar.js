@@ -25,7 +25,7 @@ const Navbar = () => {
           type="button"
           href="#contact"
           className="inline-flex items-center text-white bg-red-666 border-0 py-1 px-3 focus:outline-none  hover:bg-black-666 hover:border hover:border-red-666 hover:shadow-[1px_2px_0_0_rgba(255,0,102)] hover:shadow-red-666 rounded text-base md:mt-0">
-          Hire Me
+          Contact Me
           <AiOutlineArrowRight className="w-4 h-4 ml-1" />
         </a>
       </div>
