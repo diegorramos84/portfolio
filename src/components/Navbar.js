@@ -6,7 +6,7 @@ const Navbar = () => {
     <header className="bg-gray-800 md:sticky top-0 z-20">
       <div className="container mx-auto flex md:p-5 flex-col md:flex-row items-center">
         <div className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="md:ml-3 text-xl">
+          <a href="#about" className="md:ml-3 text-xl hover:text-red-666 font-bold">
             Diego Ramos
           </a>
         </div>
