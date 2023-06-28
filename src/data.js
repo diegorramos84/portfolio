@@ -5,6 +5,15 @@ import { FcLinux } from 'react-icons/fc'
 
 export const projects = [
   {
+    title: "Homework Heroes",
+    subtitle: "Homework app to assist neurodivergent kids with their homework",
+    description: "Webapp with teacher and student dashboard. Pomodoro and music player features. React + Flask",
+    image: "./homeworkheroes.png",
+    link: "https://homework-heroes.onrender.com/",
+    github: "https://github.com/Beckibuzz93/Homework-Heroes"
+
+  },
+  {
     title: "Plant Swap",
     subtitle: "Swap plants with your local community",
     description: "CRUD webapp built with Ruby on Rails. Real time chat, map and other features available",
@@ -14,22 +23,23 @@ export const projects = [
 
   },
   {
+    title: "Anti-Procrastination app",
+    subtitle: "Todo list app with calendar features",
+    description: "React.js + Node.js",
+    image: "./calendartodo.png",
+    link: "https://brainiac-brigade.onrender.com/",
+    github: "https://github.com/JackDMoore/Brainiac-Brigade"
+
+  },
+  {
     title: "Con[text]",
     subtitle: "Learn new languages by context",
     description: "Ruby on Rails powered with HotWire Turbo and Stimulus",
     image: "./context.png",
-    link: "https://team50.herokuapp.com/",
+    link: "",
     github: "https://github.com/adrianHards/hotwire-context"
 
-  },
-  {
-    title: "Rent-a-Cat",
-    subtitle: "Rent-a-Dog but for cats!",
-    description: "Airbnb clone",
-    image: "./cats.png",
-    link: "https://rent-a-cat-batch901.herokuapp.com/",
-    github:"https://github.com/sarshad1986/rent-a-cat",
-  },
+  }
 ]
 
 export const skills = [
