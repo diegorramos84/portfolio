@@ -9,7 +9,7 @@ export const projects = [
     subtitle: "Swap plants with your local community",
     description: "CRUD webapp built with Ruby on Rails. Real time chat, map and other features available",
     image: "./plantswap.png",
-    link: "https://www.plantswap.live/",
+    link: "https://plant-swap-batch901.herokuapp.com/",
     github: "https://github.com/diegorramos84/plant-swap"
 
   },
