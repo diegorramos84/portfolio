@@ -1,5 +1,5 @@
 import IconLanguageRuby from "./components/icons/IconLanguageRuby.tsx"
-import { FaJsSquare, FaNodeJs, FaReact } from "react-icons/fa"
+import { FaFlask, FaJsSquare, FaNodeJs, FaPython, FaReact } from "react-icons/fa"
 import { SiRubyonrails } from "react-icons/si"
 import { FcLinux } from 'react-icons/fc'
 
@@ -44,14 +44,6 @@ export const projects = [
 
 export const skills = [
   {
-    name: "Ruby",
-    icon: <IconLanguageRuby className="mr-2 text-red-700" />
-  },
-  {
-    name: "Rails",
-    icon: <SiRubyonrails className="mr-2 bg-red-700 text-white rounded-full" />
-  },
-  {
     name: "Javascript",
     icon: <FaJsSquare className="mr-2 text-yellow-400" />,
   },
@@ -62,6 +54,22 @@ export const skills = [
   {
     name: "Node",
     icon: <FaNodeJs className="mr-2 text-green-300" />,
+  },
+  {
+    name: "Python",
+    icon: <FaPython className="mr-2" />,
+  },
+  {
+    name: "Flask",
+    icon: <FaFlask className="mr-2" />,
+  },
+  {
+    name: "Ruby",
+    icon: <IconLanguageRuby className="mr-2 text-red-700" />
+  },
+  {
+    name: "Rails",
+    icon: <SiRubyonrails className="mr-2 bg-red-700 text-white rounded-full" />
   },
   {
     name: "Linux",
